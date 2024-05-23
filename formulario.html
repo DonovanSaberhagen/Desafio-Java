@@ -1,0 +1,63 @@
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Javier Jimenez Jimenez">
+    <meta name="description" content="Describe tu proyecto en una línea">
+
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script defer src="./assets/js/index.js"></script>
+
+
+    <title>Desafio java - Formulario</title>
+  </head>
+
+  <body>
+
+    <main>
+      <section class="main__container">
+        <h1>Escríbenos !!!</h1>
+        <div class="resultado"></div>
+        <form id="formulario">
+          <div>
+              <div id="container__nombre">
+                  <label>
+                      Nombre completo
+                  </label>
+                  <input id="nombre" type="text">
+                  <span id="errorNombre" class="error"></span>
+              </div>
+              <div id="container__asunto">
+                  <label>
+                      Asunto
+                  </label>
+                  <input id="asunto" type="text">
+                  <span id="errorAsunto" class="error"></span>
+              </div>
+          </div>
+          <div id="container__mensaje">
+              <label>
+                  Mensaje
+              </label>
+              <textarea id="mensaje"></textarea>
+              <span id="errorMensaje" class="error"></span>
+          </div>
+          <div>
+              <button id="botton" type="submit">
+                  Envíar mensaje
+              </button>
+          </div>
+      </form>
+      </section>
+    </main>
+    
+  </body>
+
+</html>

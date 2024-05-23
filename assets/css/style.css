@@ -11844,5 +11844,56 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.main__container {
+  width: 40vw;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#container__nombre {
+  display: flex;
+  flex-direction: column;
+}
+
+#container__asunto {
+  display: flex;
+  flex-direction: column;
+}
+
+#container__mensaje {
+  display: flex;
+  flex-direction: column;
+}
+
+.paleta-colores {
+  display: flex;
+  flex-direction: column;
+}
+
+#paletaColores {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.color {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.cuadroPrincipal {
+  width: 400px;
+  height: 360px;
+  background-color: #ccc;
+  position: absolute;
+  margin-left: 60px;
+  border: 1px solid black;
+}
+
+#container-colores {
+  margin: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
